@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "name": "stackx-basico-javascript-two",
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-jest": "*",
+    "jest": "*",
+    "jest-environment-jsdom": "^29.5.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "jsdom": "^22.0.0"
+  }
+}
